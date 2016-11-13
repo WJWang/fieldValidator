@@ -1,12 +1,16 @@
 # Validators
 
-## processors [Function] value => value
+## processors
+ [Function] value => value
  Do some process to the target value and return it back.
 
-## validators [Function] value => { result: [BOLL], word: [String] }
+## validators
+
+ [Function] value => { result: [BOLL], word: [String] }
  Validator the input value and return the result object.
 
-## checkers [Function] (value, processors[Array], validators[Array]) => { result: [BOLL], words: [Array] }
+## checkers 
+  [Function] (value, processors[Array], validators[Array]) => { result: [BOLL], words: [Array] }
   Do all the processor function defined in processors and validators, return the result of.
 
 
