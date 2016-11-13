@@ -1,5 +1,5 @@
 {
-  "name": "field-validator",
+  "name": "wjwang-field-validator",
   "version": "1.0.0",
   "description": "form input processors and validators",
   "main": "index.js",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/WJWang/fieldValidator/issues"
   },
-  "homepage": "https://github.com/WJWang/fieldValidator#readme"
+  "homepage": "https://github.com/WJWang/fieldValidator#readme",
+  "keywords": [
+    "form",
+    "validator"
+  ]
 }
