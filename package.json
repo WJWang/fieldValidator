@@ -1,15 +1,24 @@
 {
   "name": "field-validator",
   "version": "1.0.0",
-  "description": "",
+  "description": "form input processors and validators",
   "main": "index.js",
   "scripts": {
-    "dev": "babel-node ./index.js",
+    "dev": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "wjwang",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.16.6"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WJWang/fieldValidator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WJWang/fieldValidator/issues"
+  },
+  "homepage": "https://github.com/WJWang/fieldValidator#readme"
 }
