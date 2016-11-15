@@ -5,8 +5,8 @@ const requiredValidator = (text) => (
   _.isEmpty(text) ? { result: false, word: 'required' } : { result: true }
 );
 
-const passwordValidator = text => {
-  const re = /^[a-zA-Z0-9]{8,12}$/g;
+const passwordValidator = text => re => {
+  if (!re) re = /^[a-zA-Z0-9]{8,12}$/g;
   return (re.test(text)) ? { result: true } : { result: false, word: 'passwdFormatErr' };
 };
 
